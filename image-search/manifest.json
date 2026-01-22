@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "以图搜图",
+  "short_name": "以图搜图",
+  "version": "1.0.0",
+  "description": "在图片右键菜单中添加以图搜图，支持 Yandex / SauceNAO / IQDB / Google",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
